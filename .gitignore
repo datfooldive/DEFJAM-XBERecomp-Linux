@@ -1,0 +1,34 @@
+# build
+/out/
+/build/
+*.zip
+*.pdb
+*.exe
+*.obj
+*.o
+
+# recompiled code, derived from the game
+/generated/
+
+# user's own game files (assets may be a symlink, so no trailing slash)
+/assets
+*.iso
+*.xbe
+
+# runtime files
+settings.toml
+/logs/
+/hdd/
+/CrashDumps/
+
+# editors
+.vs/
+.vscode/
+.idea/
+
+# Local temporary folder
+.local
+/snapshots/
+
+# logs
+*.log
